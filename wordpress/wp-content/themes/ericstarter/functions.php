@@ -43,9 +43,12 @@ function ericstarter_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'menu-1' => esc_html__( 'Primary', 'ericstarter' ),
-	) );
+	register_nav_menus(
+	array(
+		'top-custom-menu' => esc_html__( 'Top Custom Menu', 'ericstarter' ),
+		'bottom-custom-menu' => esc_html__( 'Bottom Custom Menu', 'ericstarter'),
+	 )
+   );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments

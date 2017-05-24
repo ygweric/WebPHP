@@ -13,6 +13,10 @@
 
 	</div><!-- #content -->
 
+	<div id="site-navigation" class="main-navigation" role="navigation">
+		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ericstarter' ); ?></button>
+		<?php wp_nav_menu( array( 'theme_location' => 'bottom-custom-menu')); ?>
+	</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ericstarter' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'ericstarter' ), 'WordPress' ); ?></a>
