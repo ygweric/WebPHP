@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+
+!*.php
+!*.html
+!*.css
+!*.js
+!*.gitignore
+
+wp-content/uploads/
