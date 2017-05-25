@@ -118,6 +118,7 @@ add_action( 'widgets_init', 'ericstarter_widgets_init' );
  */
 function ericstarter_scripts() {
 	wp_enqueue_style( 'ericstarter-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'ericstarter-style-sidebar', get_theme_file_uri('/layouts/content-sidebar.css' ));
 
 	wp_enqueue_script( 'ericstarter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
