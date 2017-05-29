@@ -10,3 +10,4 @@
 !*.gitignore
 
 wp-content/uploads/
+wp-content/plugins/

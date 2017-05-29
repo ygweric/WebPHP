@@ -139,6 +139,17 @@ footer div.site-info {
 	margin-bottom: 20px;
 }
 
+#searchform .search  input {
+	padding:5px 10px;
+}
+
+#searchform .button {
+	padding:7px 10px;
+	background-color:#ff6800;
+	border:0;
+	color:#fff;
+}
+
 /* ################## MY END */
 
 body {
@@ -620,13 +631,13 @@ a:active {
 }*/
 
 a {
-	color: #4393f2;
+	color: #ff6800;
 	font-family: 'Open Sans', serif;
 	text-decoration: none;
 }
 
 a:hover {
- 	color: #236392;
+ 	color: #df5800;
 }
 
 /*--------------------------------------------------------------

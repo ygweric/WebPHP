@@ -15,9 +15,10 @@ get_header(); ?>
 		<?php
 		if ( have_posts() ) : ?>
 
-			<header class="page-header">
+			<!-- <header class="page-header">
 				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'ericstarter' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
+			</header> -->
+			<!-- .page-header -->
 
 			<?php
 			/* Start the Loop */
@@ -32,7 +33,7 @@ get_header(); ?>
 
 			endwhile;
 
-			the_posts_navigation();
+			wp_pagenavi();
 
 		else :
 

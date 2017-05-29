@@ -1,0 +1,29 @@
+/*
+Default style for WP-PageNavi plugin
+
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+	clear: both;
+	text-align: right;
+	color: #ff6800;
+	font-family: 'Open Sans', serif;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	border: 1px solid #ddd;
+	padding: 3px 5px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #ffa8a0;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}

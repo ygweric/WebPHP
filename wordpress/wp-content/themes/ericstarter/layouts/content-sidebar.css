@@ -13,6 +13,7 @@
 }
 .site-main {
 	margin: 0 25% 0 0;
+	padding-right: 10px;
 }
 .site-content .widget-area {
 	float: right;
