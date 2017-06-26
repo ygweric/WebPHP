@@ -150,6 +150,21 @@ footer div.site-info {
 	color:#fff;
 }
 
+div.youtube {
+	text-align: center;
+}
+
+/* ################## Full Width Style */
+
+.site-main-full-width {
+	margin: 0 0 0 0;
+}
+
+.content-area-full-width {
+	margin: 0 auto;
+	width: 70%;
+}
+
 /* ################## MY END */
 
 body {
